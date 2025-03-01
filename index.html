@@ -1,67 +1,270 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head class="bg-teal-200">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
-<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="">
-    
+
 
     <header class="bg-teal-200">
-        <nav class="mx-36 mt-6">
+        <nav class="mx-36 mt-6 bg-white px-6 py-6">
             <div class="navbar bg-base-100">
                 <div class="flex-1">
                     <img src="assets/logo.png" alt="">
-                  <a class="btn btn-ghost text-3xl font-bold"><span class="font-light">Dev</span>Board</a>
+                    <a class="btn btn-ghost text-3xl font-bold"><span class="font-light">Dev</span>Board</a>
                 </div>
-                <div class="flex-none">
-                  <div class="dropdown dropdown-end">
-                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
-                      <div class="indicator">
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          class="h-5 w-5"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor">
-                          <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
-                        </svg>
-                        <span class="badge badge-sm indicator-item">8</span>
-                      </div>
+                <div class="flex-none gap-9">
+
+                    <div class="flex bg-slate-100 gap-5 rounded-full py-3 px-2">
+                        <img class="w-8 h-8" src="assets/checkbox.png" alt="">
+                        <h1 class="text-3xl font-bold">23</h1>
                     </div>
-                    <div
-                      tabindex="0"
-                      class="card card-compact dropdown-content bg-base-100 z-[1] mt-3 w-52 shadow">
-                      <div class="card-body">
-                        <span class="text-lg font-bold">8 Items</span>
-                        <span class="text-info">Subtotal: $999</span>
-                        <div class="card-actions">
-                          <button class="btn btn-primary btn-block">View cart</button>
+                    <div class="dropdown dropdown-end">
+                        <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                            <div class="w-10 rounded-full">
+                                <img alt="Tailwind CSS Navbar component" src="assets/theme-btn.png" />
+                            </div>
+
                         </div>
-                      </div>
                     </div>
-                  </div>
-                  <div class="dropdown dropdown-end">
-                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
-                      <div class="w-10 rounded-full">
-                        <img
-                          alt="Tailwind CSS Navbar component"
-                          src="assets/theme-btn.png" />
-                      </div>
-                    
-                </div>
-              </div>
         </nav>
+        <section class=" flex">
+            <!--body-->
+        <section class="mx-36 mt-6 bg-white px-6 py-6 mb-8">
+            <!-- part-1 -->
+            <div class="flex justify-around mb-8">
+                <div class="flex gap-5 bg-slate-200 px-8 py-8 rounded-xl">
+                    <div class="bg-white rounded-full px-3 pt-5">
+                        <img src="assets/checkbox.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-medium text-xl ">Task Assigned </h3>
+                        <h2 class="font-bold text-4xl">05</h2>
+
+                    </div>
+                </div>
+
+                <div class="bg-gradient-to-r from-blue-500 to-blue-300 flex gap-6 pl-10 pr-20 py-6">
+                    <div>
+                        <img src="assets/board.png" alt="">
+                    </div>
+                    <div>
+                        <h1 class="text-white">Discover Something
+                            <br> New Today!
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="flex gap-5 bg-slate-200 px-8 py-8 rounded-xl">
+                    <div class="bg-white rounded-full px-3 pt-5">
+                        <img src="assets/calender.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="font-medium text-xl ">Wed </h3>
+                        <h2 class="font-bold text-4xl">July 01 2025</h2>
+
+                    </div>
+                </div>
+            </div>
+            <!--Part-2-->
+
+            <section>
+                <section class="flex grid-cols-3 gap-9">
+                    <div class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
+                        <div>
+                            <div class="pr-44 mt-6">
+                                <h3 class="bg-white rounded-xl py-2 px-4 ">ShopEase</h3>
+                                <br>
+                                <h2 class="font-medium text-2xl">
+                                    Fix Mobile Button Issue
+                                </h2>
+                                <br>
+                                <p class="bg-white rounded-xl my-7">
+                                    Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works
+                                    properly
+                                    and ensure onClick works properly
+                                </p>
+                            </div>
+                            <div class="flex gap-12">
+                                <div class="">
+                                    <p class="text-xs">deadline</p>
+                                    <p class="font-medium "> 21 March 2025</p>
+                                </div>
+                                <button class="btn btn-active btn-primary">complete </button>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <div class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
+                        <div>
+                            <div class="pr-44 mt-6">
+                                <h3 class="bg-white rounded-xl py-2 px-4 ">CloudSync</h3>
+                                <br>
+                                <h2 class="font-medium text-2xl">
+                                    Add Dark Mode
+                                </h2>
+                                <br>
+                                <p class="bg-white rounded-xl my-7">
+                                    Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works
+                                    properly
+                                    and ensure onClick works properly
+                                </p>
+                            </div>
+                            <div class="flex gap-12">
+                                <div class="">
+                                    <p class="text-xs">deadline</p>
+                                    <p class="font-medium "> 21 March 2025</p>
+                                </div>
+                                <button class="btn btn-active btn-primary">complete </button>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <div class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
+                        <div>
+                            <div class="pr-44 mt-6">
+                                <h3 class="bg-white rounded-xl py-2 px-4 ">SwiftPay</h3>
+                                <br>
+                                <h2 class="font-medium text-2xl">
+                                    Optimize  Home page 
+                                </h2>
+                                <br>
+                                <p class="bg-white rounded-xl my-7">
+                                    Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works
+                                    properly
+                                    and ensure onClick works properly
+                                </p>
+                            </div>
+                            <div class="flex gap-12">
+                                <div class="">
+                                    <p class="text-xs">deadline</p>
+                                    <p class="font-medium "> 21 March 2025</p>
+                                </div>
+                                <button class="btn btn-active btn-primary mb-2">complete </button>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    
+    
+                </section >
+    
+                <section class="flex grid-cols-3 gap-9">
+                    <div class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
+                        <div>
+                            <div class="pr-44 mt-6">
+                                <h3 class="bg-white rounded-xl py-2 px-4 ">Meta</h3>
+                                <br>
+                                <h2 class="font-medium text-2xl">
+                                    Add new emoji 🤲
+                                </h2>
+                                <br>
+                                <p class="bg-white rounded-xl my-7">
+                                    Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works
+                                    properly
+                                    and ensure onClick works properly
+                                </p>
+                            </div>
+                            <div class="flex gap-12">
+                                <div class="">
+                                    <p class="text-xs">deadline</p>
+                                    <p class="font-medium "> 21 March 2025</p>
+                                </div>
+                                <button class="btn btn-active btn-primary">complete </button>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <div class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
+                        <div>
+                            <div class="pr-44 mt-6">
+                                <h3 class="bg-white rounded-xl py-2 px-4 ">Google LLC</h3>
+                                <br>
+                                <h2 class="font-medium text-2xl">
+                                    Integrate OpenAI API 
+                                </h2>
+                                <br>
+                                <p class="bg-white rounded-xl my-7">
+                                    Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works
+                                    properly
+                                    and ensure onClick works properly
+                                </p>
+                            </div>
+                            <div class="flex gap-12">
+                                <div class="">
+                                    <p class="text-xs">deadline</p>
+                                    <p class="font-medium "> 21 March 2025</p>
+                                </div>
+                                <button class="btn btn-active btn-primary mb-2">complete </button>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <div class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
+                        <div>
+                            <div class="pr-44 mt-6">
+                                <h3 class="bg-white rounded-xl py-2 px-4 ">Glassdoar</h3>
+                                <br>
+                                <h2 class="font-medium text-2xl">
+                                    Improve Job searching 
+                                </h2>
+                                <br>
+                                <p class="bg-white rounded-xl my-7">
+                                    Debug using Chrome DevTools, check for overlapping elements, and ensure onClick works
+                                    properly
+                                    and ensure onClick works properly
+                                </p>
+                            </div>
+                            <div class="flex gap-12">
+                                <div class="">
+                                    <p class="text-xs">deadline</p>
+                                    <p class="font-medium "> 21 March 2025</p>
+                                </div>
+                                <button class="btn btn-active btn-primary">complete </button>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                </section>
+            </section>
+
+            
+
+        </section>
+
+        <!--Active Part -->
+        <section class="px-4 bg-white rounded-xl w-1/4
+         mb-8 mt-6 mr-52 justify-center
+         ">
+
+            <div class=" px-14 justify-center">
+                <div class="flex gap-4 ">
+                    <img src="assets/activity.png" alt="">
+                    <h1 class="font-medium texl-xl"> Active Log </h1>
+                </div>
+                <div class="mt-6 "> 
+                    <button class="btn btn-primary">Clear History </button>
+                </div>
+            </div>
+        </section>
+
+        </section>
+
     </header>
-    <main></main>
-    <footer></footer>
+
 </body>
+
 </html>
