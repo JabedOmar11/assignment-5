@@ -49,3 +49,14 @@ document.getElementById("btn-clr-change")
 .addEventListener('mouseover', function(){
     document.body.style.backgroundColor = 'red';
 }) 
+
+document.getElementById("btn-clr-change")
+.addEventListener('mouseout', function(){
+    document.body.style.backgroundColor = 'yellow';
+})
+document.getElementById("btn-clr-change")
+.addEventListener('doubleclick', function(){
+    document.body.style.backgroundColor = 'purple';
+})
+// add log
+
