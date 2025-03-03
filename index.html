@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head class="bg-teal-200">
+<head class="bg-slate-100">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -10,11 +10,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="">
+<body class="bg-slate-100">
 
 
-    <header class="bg-teal-200">
-        <nav class="mx-36 mt-6 bg-white px-6 py-6">
+    <header class="  ">
+        <nav class="mx-36 mb-5 bg-white px-6 py-3 rounded-2xl ">
             <div class="navbar bg-base-100">
                 <div class="flex-1">
                     <img src="assets/logo.png" alt="">
@@ -23,7 +23,9 @@
                 <div class="flex-none gap-9">
 
                     <div class="flex bg-slate-100 gap-5 rounded-full py-3 px-2">
-                        <img class="w-8 h-8" src="assets/checkbox.png" alt="">
+                        
+                            <img class="w-8 h-8" src="assets/checkbox.png" alt="">
+                        </a>
                         <h1 class="text-3xl font-bold">23</h1>
                     </div>
                     <div class="dropdown dropdown-end">
@@ -35,9 +37,9 @@
                         </div>
                     </div>
         </nav>
-        <section class=" flex">
+        <section class=" flex ">
             <!--body-->
-        <section class="mx-36 mt-6 bg-white px-6 py-6 mb-8">
+        <section class="mx-36 mt-6 bg-white px-6 py-6 mb-8 rounded-2xl">
             <!-- part-1 -->
             <div class="flex justify-around mb-8">
                 <div class="flex gap-5 bg-slate-200 px-8 py-8 rounded-xl">
@@ -51,7 +53,8 @@
                     </div>
                 </div>
 
-                <div class="bg-gradient-to-r from-blue-500 to-blue-300 flex gap-6 pl-10 pr-20 py-6">
+               <a href="file2.html">
+                <div class="bg-gradient-to-r from-blue-500 to-blue-300 flex gap-6 pl-10 pr-20 py-6 rounded-2xl">
                     <div>
                         <img src="assets/board.png" alt="">
                     </div>
@@ -61,6 +64,7 @@
                         </h1>
                     </div>
                 </div>
+               </a>
 
                 <div class="flex gap-5 bg-slate-200 px-8 py-8 rounded-xl">
                     <div class="bg-white rounded-full px-3 pt-5">
@@ -75,9 +79,9 @@
             </div>
             <!--Part-2-->
 
-            <section>
-                <section class="flex grid-cols-3 gap-9">
-                    <div class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
+            <section class="grid grid-cols-3 gap-4">
+                
+                    <div id="box-1" class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
                         <div>
                             <div class="pr-44 mt-6">
                                 <h3 class="bg-white rounded-xl py-2 px-4 ">ShopEase</h3>
@@ -103,7 +107,7 @@
     
                     </div>
     
-                    <div class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
+                    <div id="box-2" class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
                         <div>
                             <div class="pr-44 mt-6">
                                 <h3 class="bg-white rounded-xl py-2 px-4 ">CloudSync</h3>
@@ -129,7 +133,7 @@
     
                     </div>
     
-                    <div class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
+                    <div id="box-3" class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
                         <div>
                             <div class="pr-44 mt-6">
                                 <h3 class="bg-white rounded-xl py-2 px-4 ">SwiftPay</h3>
@@ -157,10 +161,10 @@
     
                     
     
-                </section >
+               
     
-                <section class="flex grid-cols-3 gap-9">
-                    <div class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
+               
+                    <div id="box-4" class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
                         <div>
                             <div class="pr-44 mt-6">
                                 <h3 class="bg-white rounded-xl py-2 px-4 ">Meta</h3>
@@ -186,7 +190,7 @@
     
                     </div>
     
-                    <div class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
+                    <div id="box-5" class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
                         <div>
                             <div class="pr-44 mt-6">
                                 <h3 class="bg-white rounded-xl py-2 px-4 ">Google LLC</h3>
@@ -212,7 +216,7 @@
     
                     </div>
     
-                    <div class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
+                    <div id="box-6" class="bg-slate-200 pl-6 pt-6 mb-9 rounded-2xl">
                         <div>
                             <div class="pr-44 mt-6">
                                 <h3 class="bg-white rounded-xl py-2 px-4 ">Glassdoar</h3>
@@ -238,7 +242,7 @@
     
                     </div>
     
-                </section>
+                
             </section>
 
             
@@ -247,7 +251,7 @@
 
         <!--Active Part -->
         <section class="px-4 bg-white rounded-xl w-1/4
-         mb-8 mt-6 mr-52 justify-center
+         mb-8 mt-6 mr-52 justify-center pt-4
          ">
 
             <div class=" px-14 justify-center">
@@ -265,6 +269,8 @@
 
     </header>
 
+
+    <script src="script/new.js"></script>
 </body>
 
 </html>

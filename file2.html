@@ -1,11 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+<head class="bg-slate-200">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Question and Answer</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+
+<body class=" bg-slate-200">
+
     
+    <nav class="mx-36 mb-5 bg-white px-6 py-3 rounded-2xl ">
+        <div class="navbar bg-base-100 flex">
+            <div class="flex-1">
+                <img src="assets/logo.png" alt="">
+                <a class="btn btn-ghost text-3xl font-bold"><span class="font-light">Dev</span>Board</a>
+            </div>
+            <div class="flex-none gap-9">
+
+                
+                <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost btn-circle avatar">
+                        <a href="index.html">
+                            <button class="btn btn-primary">Back to desk </button>
+
+                        </a>
+                    </div>
+                </div>
+    </nav>
+
+    <h1 class="font-bold text-center text-xl">Blogs</h1>
+
+    <!--Question and Answer-->
+    <Section class="px-32 py-3">
+        <div class="bg-white mb-4 rounded-2xl">
+            <h1 class="font-bold text-xl"> What are the different ways to select an element in the DOM?</h1>
+            <br>
+            <p>Here are the different ways to select an element in the DOM:
+                <br>
+
+                1. getElementById(): Selects an element by its ID.
+                2. getElementsByClassName(): Selects elements by their class name.
+                3. getElementsByTagName(): Selects elements by their tag name.
+                4. querySelector(): Selects the first element that matches a CSS selector.
+                5. querySelectorAll(): Selects all elements that match a CSS selector.
+                6. childNodes/ children: Selects child elements of a parent.
+                .</p>
+        </div>
+
+        <div class="bg-white mb-4 rounded-2xl">
+            <h1 class="font-bold text-xl">What is the difference between innerHTML, innerText, and textContent ?</h1>
+            <br>
+            <p>Here’s a quick breakdown of the differences: <br>
+                Gets or sets the HTML content inside an element.Gets or sets the visible text content of an element.
+                Gets or sets the raw text content of an element, including text in hidden elements.
+            </p>
+        </div>
+        <div class="bg-white mb-4 rounded-2xl">
+            <h1 class="font-bold text-xl">What is event delegation in the DOM?</h1>
+            <br>
+            <p>Event delegation is a technique in the DOM where a single event listener is attached to a parent element
+                instead of individual child elements. The event is captured or bubbled up from the target child element
+                to the parent, allowing the parent to handle events for multiple child elements.</p>
+        </div>
+        <div class="bg-white mb-4 rounded-2xl">
+            <h1 class="font-bold text-xl">What is event bubbling in the DOM?</h1>
+            <br>
+            <p>Event bubbling is a concept in the DOM where an event, triggered on a child element, propagates (bubbles)
+                up to its parent elements in the hierarchy. This means that the event is first handled by the target
+                element, then by its parent, then by the parent's parent, and so on, until it reaches the root of the
+                document.</p>
+        </div>
+        <div class="bg-white mb-4 rounded-2xl">
+            <h1 class="font-bold text-xl"> How do you create, add, and remove elements using JavaScript?</h1>
+            <br>
+            <p>Here’s a quick guide on how to create, add, and remove elements using JavaScript:
+                <br>
+            1. Creating an Element 
+            2. Adding an Element 
+            3. Removing an Element 
+            </p>
+        </div>
+
+    </Section>
 </body>
+
 </html>
