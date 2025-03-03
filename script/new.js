@@ -38,3 +38,14 @@ addEventListener('click', function(){
 alert('Board Uploaded Successfully ')
 
 })
+
+// btn color change 
+document.getElementById("btn-clr-change")
+.addEventListener('click', function(){
+    document.body.style.backgroundColor = 'green';
+}) 
+
+document.getElementById("btn-clr-change")
+.addEventListener('mouseover', function(){
+    document.body.style.backgroundColor = 'red';
+}) 
